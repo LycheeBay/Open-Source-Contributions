@@ -4,10 +4,20 @@ html {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+#peskygreendot {
+  background-color: lime;
+  width: 5px;
+  height: 5px;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: transparent;
 }
 
 h1 {
