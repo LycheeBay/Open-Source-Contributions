@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+html {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: gray;
+  margin-bottom: 30px;
+}
+
+h2 a, a:hover, a:focus, a:visited {
+  text-decoration: underline;
+  color: purple;
+}
+
+table {
+  border: 3px solid darkgray;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: lightblue;
+  border-spacing: 10px;
+}
+
+#display {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  padding: 12px 0px;
+  margin-bottom: 10px;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.buttonrow {
+  text-align: center;
+}
+
+.buttonrow input {
+  font-size: 30px;
+  height: 70px;
+  width: 70px;
+  border-radius: 5px;
+  border-bottom-width: 5px;
+  outline: 0;
+}
+
+.buttonrow input:hover {
+  filter: brightness(0.9);
+}
+
+.buttonrow input:active {
+  border-bottom-width: 2px;
+}
